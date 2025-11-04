@@ -1,0 +1,4 @@
+@echo on
+npx hardhat node
+timeout /t 3
+npx hardhat run --network localhost scripts/deploy.js
